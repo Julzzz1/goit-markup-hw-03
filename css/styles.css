@@ -221,8 +221,7 @@ img {
 
 .team {
   background-color: #f4f4fd;
-  width: 1440px;
-  padding: 232px 156px 120px;
+
 }
 
 .team-members,
@@ -241,7 +240,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 /* Advantages */
@@ -257,7 +256,7 @@ img {
 } 
 
 .advantages-list {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc (100%-48px) / 3;
 }
 
 .advantages-title {
@@ -274,7 +273,7 @@ img {
 /* Team */
 
 .team {
-  padding: 120px 0
+  padding: 120px 0;
 }
 
 .team-people {
@@ -300,7 +299,6 @@ width: calc((100% - 72px) / 4)
 .card {
   padding: 32px 0;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .team-name,
@@ -310,6 +308,7 @@ width: calc((100% - 72px) / 4)
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-all {
@@ -332,13 +331,14 @@ background:#FFF;
 }
 
 .portfolio {
-  paddiing: 120px 0 120px 0;
+  paddiing-top: 120px;
+  padding-bottom: 120px;
 }
 
 .card-port {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  margin-bottom: 8px;
+  border-top: none;
 }
 
 .advantages-descr,

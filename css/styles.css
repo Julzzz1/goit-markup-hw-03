@@ -1,4 +1,4 @@
-/* Body */
+/* General */
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -52,9 +52,23 @@ img {
 }
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 120px 0;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
 
 /* Header */
 .header-container {
@@ -147,6 +161,8 @@ img {
 }
 
 
+
+
 /* Hero */
 .hero {
   background-color: #2e2f42;
@@ -197,18 +213,6 @@ img {
 
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 .team {
   background-color: #f4f4fd;
@@ -261,15 +265,8 @@ img {
   margin-bottom: 8px
 }
 
-.advantages-descr,
-.team-position,
-.portfolio-descr {
-  color: #434455;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  
-  
-}
+
+/* Team */
 
 .team {
   padding: 120px 0
@@ -317,22 +314,29 @@ background:#FFF;
 }
 
 .portfolio {
-  paddiing: 120px 0 120px 0;
+  paddiing: 120px 0 120px;
 }
+
+.advantages-descr,
+.team-position,
+.portfolio-descr {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+
+/* Footer */
 
 .bottom {
   background-color: #2e2f42;
-  display: flex;
-  padding-left: 156px;
-  gap: 16px;
-  padding-top: 140px;
-  padding-right: 1020px;
-  padding-bottom: 100;
-  flex-direction: column;
-  justify-content: center; 
+  padding: 100px 0 100px;
 }
 
-
+.bottom-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .logo-white {
   color: #f4f4fd;
@@ -345,7 +349,4 @@ background:#FFF;
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
- 
-  
-  
 }
